@@ -12,7 +12,7 @@ function handleMinus(){
 }   
 }
 function sbros(){
-    setCount(count = 0)
+    setCount(0)
 }
 
   return (
