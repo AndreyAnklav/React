@@ -1,15 +1,11 @@
-import './App.css';
-import Count from './Count';
-import Home from './Home';
+import React from "react";
+import Main from "./Main";
+import "./App.css"
 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Count/>
-      <Home/>
+    <div>
+      <Main />
     </div>
   );
 }
-
-export default App;
